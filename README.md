@@ -22,4 +22,33 @@
 
 10.引导蒙层 https://github.com/huburt-Hu/NewbieGuide
 
-11.
+11.zxing com.google.zxing:core:3.2.1
+
+12.fastjson https://github.com/AlibabaTech/fastjson
+
+13.gson https://github.com/google/gson
+
+14.greendao https://github.com/greenrobot/greenDAO
+
+15.glide https://github.com/bumptech/glide
+
+16.图表 https://github.com/PhilJay/MPAndroidChart
+
+17.无限ViewPager https://github.com/alibaba/UltraViewPager
+
+18
+
+
+
+okhttp
+
+https://github.com/square/okhttp
+
+
+
+restful 
+
+https://square.github.io/retrofit/
+
+
+
