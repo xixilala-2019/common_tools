@@ -1,0 +1,13 @@
+<mxfile>
+    <diagram id="4REai4AFl7-bRlNhYW5i" name="第 1 页">
+        <mxGraphModel dx="1614" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="18" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;androidx.lifecycle.LiveData（2.0.0 版本）&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="690" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
