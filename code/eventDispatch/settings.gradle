@@ -1,0 +1,11 @@
+include ':magicasakura'
+include ':ssqchaxun'
+include ':mvidemo'
+include ':simplefunction'
+include ':adapteui'
+include ':testphotogallery'
+include ':parallel'
+include ':testcanvas'
+include ':testboss'
+include ':app'
+rootProject.name = "EventDispatchDemo"

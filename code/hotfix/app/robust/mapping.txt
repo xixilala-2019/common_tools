@@ -1,0 +1,249 @@
+com.meituan.robust.BuildConfig -> com.meituan.robust.BuildConfig:
+    boolean DEBUG -> DEBUG
+    java.lang.String APPLICATION_ID -> APPLICATION_ID
+    java.lang.String BUILD_TYPE -> BUILD_TYPE
+    java.lang.String FLAVOR -> FLAVOR
+    int VERSION_CODE -> VERSION_CODE
+    java.lang.String VERSION_NAME -> VERSION_NAME
+    6:6:void <init>() -> <init>
+com.meituan.robust.ChangeQuickRedirect -> com.meituan.robust.ChangeQuickRedirect:
+    java.lang.Object accessDispatch(java.lang.String,java.lang.Object[]) -> accessDispatch
+    boolean isSupport(java.lang.String,java.lang.Object[]) -> isSupport
+com.meituan.robust.Constants -> com.meituan.robust.Constants:
+    java.lang.String ORIGINCLASS -> ORIGINCLASS
+    java.lang.String MODIFY_ANNOTATION -> MODIFY_ANNOTATION
+    java.lang.String ADD_ANNOTATION -> ADD_ANNOTATION
+    java.lang.String LAMBDA_MODIFY -> LAMBDA_MODIFY
+    java.lang.String PATCH_TEMPLATE_FULL_NAME -> PATCH_TEMPLATE_FULL_NAME
+    java.lang.String ZIP_FILE_NAME -> ZIP_FILE_NAME
+    java.lang.String PATACH_DEX_NAME -> PATACH_DEX_NAME
+    java.lang.String CLASSES_DEX_NAME -> CLASSES_DEX_NAME
+    java.lang.String PATACH_JAR_NAME -> PATACH_JAR_NAME
+    java.lang.String PATCH_SUFFIX -> PATCH_SUFFIX
+    java.lang.String PATCH_CONTROL_SUFFIX -> PATCH_CONTROL_SUFFIX
+    java.lang.String INLINE_PATCH_SUFFIX -> INLINE_PATCH_SUFFIX
+    java.lang.String STATICFLAG -> STATICFLAG
+    java.lang.String ROBUST_ASSIST_SUFFIX -> ROBUST_ASSIST_SUFFIX
+    java.lang.String ROBUST_PUBLIC_SUFFIX -> ROBUST_PUBLIC_SUFFIX
+    java.lang.String GET_REAL_PARAMETER -> GET_REAL_PARAMETER
+    java.lang.String ROBUST_UTILS_FULL_NAME -> ROBUST_UTILS_FULL_NAME
+    java.lang.String ROBUST_GENERATE_DIRECTORY -> ROBUST_GENERATE_DIRECTORY
+    java.lang.String METHOD_MAP_PATH -> METHOD_MAP_PATH
+    java.lang.String DEFAULT_MAPPING_FILE -> DEFAULT_MAPPING_FILE
+    java.lang.String SMALI_INVOKE_SUPER_COMMAND -> SMALI_INVOKE_SUPER_COMMAND
+    java.lang.String SMALI_INVOKE_VIRTUAL_COMMAND -> SMALI_INVOKE_VIRTUAL_COMMAND
+    java.lang.Class ModifyAnnotationClass -> ModifyAnnotationClass
+    java.lang.Class AddAnnotationClass -> AddAnnotationClass
+    java.lang.String[] LIB_NAME_ARRAY -> LIB_NAME_ARRAY
+    java.lang.String PACKNAME_END -> PACKNAME_END
+    java.lang.String PRIMITIVE_TYPE -> PRIMITIVE_TYPE
+    java.lang.String ARRAY_TYPE -> ARRAY_TYPE
+    char OBJECT_TYPE -> OBJECT_TYPE
+    java.lang.String PACKNAME_START -> PACKNAME_START
+    java.lang.Boolean OBSCURE -> OBSCURE
+    boolean isLogging -> isLogging
+    java.lang.String PATCH_PACKAGENAME -> PATCH_PACKAGENAME
+    java.util.Set RFileClassSet -> RFileClassSet
+    java.lang.String ROBUST_XML -> ROBUST_XML
+    java.lang.String CONSTRUCTOR -> CONSTRUCTOR
+    java.lang.String LANG_VOID -> LANG_VOID
+    java.lang.String VOID -> VOID
+    java.lang.String LANG_BOOLEAN -> LANG_BOOLEAN
+    java.lang.String BOOLEAN -> BOOLEAN
+    java.lang.String LANG_INT -> LANG_INT
+    java.lang.String INT -> INT
+    java.lang.String LANG_LONG -> LANG_LONG
+    java.lang.String LONG -> LONG
+    java.lang.String LANG_DOUBLE -> LANG_DOUBLE
+    java.lang.String DOUBLE -> DOUBLE
+    java.lang.String LANG_FLOAT -> LANG_FLOAT
+    java.lang.String FLOAT -> FLOAT
+    java.lang.String LANG_SHORT -> LANG_SHORT
+    java.lang.String SHORT -> SHORT
+    java.lang.String LANG_BYTE -> LANG_BYTE
+    java.lang.String BYTE -> BYTE
+    java.lang.String LANG_CHARACTER -> LANG_CHARACTER
+    java.lang.String CHAR -> CHAR
+    java.lang.String METHOD_MAP_OUT_PATH -> METHOD_MAP_OUT_PATH
+    java.lang.String INTERFACE_NAME -> INTERFACE_NAME
+    java.lang.String INSERT_FIELD_NAME -> INSERT_FIELD_NAME
+    java.util.List NO_NEED_REFLECT_CLASS -> NO_NEED_REFLECT_CLASS
+    java.lang.String ROBUST_APK_HASH_FILE_NAME -> ROBUST_APK_HASH_FILE_NAME
+    java.lang.String ASPECTJ_AROUND_CLASS -> ASPECTJ_AROUND_CLASS
+    java.lang.String PATCH_EXECUTE -> PATCH_EXECUTE
+    12:12:void <init>() -> <init>
+    47:109:void <clinit>() -> <clinit>
+com.meituan.robust.Patch -> com.meituan.robust.Patch:
+    java.lang.String patchesInfoImplClassFullName -> patchesInfoImplClassFullName
+    java.lang.String name -> name
+    java.lang.String url -> url
+    java.lang.String localPath -> localPath
+    java.lang.String tempPath -> tempPath
+    java.lang.String md5 -> md5
+    java.lang.String appHash -> appHash
+    boolean isAppliedSuccess -> isAppliedSuccess
+    9:9:void <init>() -> <init>
+    12:12:java.lang.String getName() -> getName
+    16:17:void setName(java.lang.String) -> setName
+    20:20:java.lang.String getUrl() -> getUrl
+    24:25:void setUrl(java.lang.String) -> setUrl
+    28:28:java.lang.String getLocalPath() -> getLocalPath
+    32:33:void setLocalPath(java.lang.String) -> setLocalPath
+    36:36:java.lang.String getMd5() -> getMd5
+    40:41:void setMd5(java.lang.String) -> setMd5
+    71:71:boolean isAppliedSuccess() -> isAppliedSuccess
+    75:76:void setAppliedSuccess(boolean) -> setAppliedSuccess
+    87:89:void delete(java.lang.String) -> delete
+    92:92:java.lang.String getPatchesInfoImplClassFullName() -> getPatchesInfoImplClassFullName
+    96:97:void setPatchesInfoImplClassFullName(java.lang.String) -> setPatchesInfoImplClassFullName
+    100:100:java.lang.String getAppHash() -> getAppHash
+    104:105:void setAppHash(java.lang.String) -> setAppHash
+    108:108:java.lang.String getTempPath() -> getTempPath
+    112:113:void setTempPath(java.lang.String) -> setTempPath
+    117:123:com.meituan.robust.Patch clone() -> clone
+    9:9:java.lang.Object clone() -> clone
+com.meituan.robust.PatchExecutor -> com.meituan.robust.PatchExecutor:
+    android.content.Context context -> context
+    com.meituan.robust.PatchManipulate patchManipulate -> patchManipulate
+    com.meituan.robust.RobustCallBack robustCallBack -> robustCallBack
+    java.lang.String ROBUST_PATCH_CACHE_DIR -> ROBUST_PATCH_CACHE_DIR
+    22:26:void <init>(android.content.Context,com.meituan.robust.PatchManipulate,com.meituan.robust.RobustCallBack) -> <init>
+    32:39:void run() -> run
+    45:45:java.util.List fetchPatchList() -> fetchPatchList
+    52:83:void applyPatchList(java.util.List) -> applyPatchList
+    86:181:boolean patch(android.content.Context,com.meituan.robust.Patch) -> patch
+    191:196:java.io.File getPatchCacheDirPath(android.content.Context,java.lang.String) -> getPatchCacheDirPath
+com.meituan.robust.PatchManipulate -> com.meituan.robust.PatchManipulate:
+    10:10:void <init>() -> <init>
+    java.util.List fetchPatchList(android.content.Context) -> fetchPatchList
+    boolean verifyPatch(android.content.Context,com.meituan.robust.Patch) -> verifyPatch
+    boolean ensurePatchExist(com.meituan.robust.Patch) -> ensurePatchExist
+com.meituan.robust.PatchProxy -> com.meituan.robust.PatchProxy:
+    java.util.concurrent.CopyOnWriteArrayList registerExtensionList -> registerExtensionList
+    java.lang.ThreadLocal robustExtensionThreadLocal -> robustExtensionThreadLocal
+    10:10:void <init>() -> <init>
+    41:46:com.meituan.robust.PatchProxyResult proxy(java.lang.Object[],java.lang.Object,com.meituan.robust.ChangeQuickRedirect,boolean,int,java.lang.Class[],java.lang.Class) -> proxy
+    51:72:boolean isSupport(java.lang.Object[],java.lang.Object,com.meituan.robust.ChangeQuickRedirect,boolean,int,java.lang.Class[],java.lang.Class) -> isSupport
+    79:94:java.lang.Object accessDispatch(java.lang.Object[],java.lang.Object,com.meituan.robust.ChangeQuickRedirect,boolean,int,java.lang.Class[],java.lang.Class) -> accessDispatch
+    98:114:void accessDispatchVoid(java.lang.Object[],java.lang.Object,com.meituan.robust.ChangeQuickRedirect,boolean,int,java.lang.Class[],java.lang.Class) -> accessDispatchVoid
+    119:135:java.lang.Object[] getObjects(java.lang.Object[],java.lang.Object,boolean) -> getObjects
+    139:151:java.lang.String getClassMethod(boolean,int) -> getClassMethod
+    155:159:java.lang.String[] getClassMethodName() -> getClassMethodName
+    169:172:boolean register(com.meituan.robust.RobustExtension) -> register
+    176:179:boolean unregister(com.meituan.robust.RobustExtension) -> unregister
+    186:188:void reset() -> reset
+    191:197:void notify(java.lang.String) -> notify
+    12:13:void <clinit>() -> <clinit>
+com.meituan.robust.PatchProxyResult -> com.meituan.robust.PatchProxyResult:
+    boolean isSupported -> isSupported
+    java.lang.Object result -> result
+    8:8:void <init>() -> <init>
+com.meituan.robust.PatchedClassInfo -> com.meituan.robust.PatchedClassInfo:
+    java.lang.String patchedClassName -> patchedClassName
+    java.lang.String patchClassName -> patchClassName
+    11:14:void <init>(java.lang.String,java.lang.String) -> <init>
+com.meituan.robust.PatchesInfo -> com.meituan.robust.PatchesInfo:
+    java.util.List getPatchedClassesInfo() -> getPatchedClassesInfo
+com.meituan.robust.RobustApkHashUtils -> com.meituan.robust.RobustApkHashUtils:
+    java.lang.String robustApkHashValue -> robustApkHashValue
+    13:13:void <init>() -> <init>
+    18:22:java.lang.String readRobustApkHash(android.content.Context) -> readRobustApkHash
+    26:37:java.lang.String readRobustApkHashFile(android.content.Context) -> readRobustApkHashFile
+    41:54:java.lang.String readFirstLine(android.content.Context,java.lang.String) -> readFirstLine
+com.meituan.robust.RobustArguments -> com.meituan.robust.RobustArguments:
+    java.lang.Object[] paramsArray -> paramsArray
+    java.lang.Object current -> current
+    boolean isStatic -> isStatic
+    int methodNumber -> methodNumber
+    java.lang.Class[] paramsClassTypes -> paramsClassTypes
+    java.lang.Class returnType -> returnType
+    15:22:void <init>(java.lang.Object[],java.lang.Object,boolean,int,java.lang.Class[],java.lang.Class) -> <init>
+com.meituan.robust.RobustCallBack -> com.meituan.robust.RobustCallBack:
+    void onPatchListFetched(boolean,boolean,java.util.List) -> onPatchListFetched
+    void onPatchFetched(boolean,boolean,com.meituan.robust.Patch) -> onPatchFetched
+    void onPatchApplied(boolean,com.meituan.robust.Patch) -> onPatchApplied
+    void logNotify(java.lang.String,java.lang.String) -> logNotify
+    void exceptionNotify(java.lang.Throwable,java.lang.String) -> exceptionNotify
+com.meituan.robust.RobustExtension -> com.meituan.robust.RobustExtension:
+    java.lang.String describeSelfFunction() -> describeSelfFunction
+    void notifyListner(java.lang.String) -> notifyListner
+    java.lang.Object accessDispatch(com.meituan.robust.RobustArguments) -> accessDispatch
+    boolean isSupport(com.meituan.robust.RobustArguments) -> isSupport
+com.meituan.robust.patch.RobustModify -> com.meituan.robust.patch.RobustModify:
+    9:9:void <init>() -> <init>
+    12:12:void modify() -> modify
+com.meituan.robust.patch.annotaion.Add -> com.meituan.robust.patch.annotaion.Add:
+    java.lang.String value() -> value
+com.meituan.robust.patch.annotaion.Modify -> com.meituan.robust.patch.annotaion.Modify:
+    java.lang.String value() -> value
+com.meituan.robust.utils.EnhancedRobustUtils -> com.meituan.robust.utils.EnhancedRobustUtils:
+    boolean isThrowable -> isThrowable
+    13:13:void <init>() -> <init>
+    18:28:java.lang.Object invokeReflectConstruct(java.lang.String,java.lang.Object[],java.lang.Class[]) -> invokeReflectConstruct
+    33:41:java.lang.Object invokeReflectMethod(java.lang.String,java.lang.Object,java.lang.Object[],java.lang.Class[],java.lang.Class) -> invokeReflectMethod
+    45:71:java.lang.reflect.Method getDeclaredMethod(java.lang.Object,java.lang.String,java.lang.Class[],java.lang.Class) -> getDeclaredMethod
+    76:85:java.lang.Object invokeReflectStaticMethod(java.lang.String,java.lang.Class,java.lang.Object[],java.lang.Class[]) -> invokeReflectStaticMethod
+    91:99:void setFieldValue(java.lang.String,java.lang.Object,int,java.lang.Class) -> setFieldValue
+    103:110:void setFieldValue(java.lang.String,java.lang.Object,boolean,java.lang.Class) -> setFieldValue
+    114:121:void setFieldValue(java.lang.String,java.lang.Object,byte,java.lang.Class) -> setFieldValue
+    125:132:void setFieldValue(java.lang.String,java.lang.Object,char,java.lang.Class) -> setFieldValue
+    136:143:void setFieldValue(java.lang.String,java.lang.Object,double,java.lang.Class) -> setFieldValue
+    147:154:void setFieldValue(java.lang.String,java.lang.Object,float,java.lang.Class) -> setFieldValue
+    158:165:void setFieldValue(java.lang.String,java.lang.Object,long,java.lang.Class) -> setFieldValue
+    169:176:void setFieldValue(java.lang.String,java.lang.Object,java.lang.Object,java.lang.Class) -> setFieldValue
+    180:187:void setFieldValue(java.lang.String,java.lang.Object,short,java.lang.Class) -> setFieldValue
+    191:198:void setStaticFieldValue(java.lang.String,java.lang.Class,java.lang.Object) -> setStaticFieldValue
+    202:209:void setStaticFieldValue(java.lang.String,java.lang.Class,int) -> setStaticFieldValue
+    213:220:void setStaticFieldValue(java.lang.String,java.lang.Class,boolean) -> setStaticFieldValue
+    224:231:void setStaticFieldValue(java.lang.String,java.lang.Class,double) -> setStaticFieldValue
+    235:242:void setStaticFieldValue(java.lang.String,java.lang.Class,float) -> setStaticFieldValue
+    246:253:void setStaticFieldValue(java.lang.String,java.lang.Class,long) -> setStaticFieldValue
+    257:264:java.lang.Object getFieldValue(java.lang.String,java.lang.Object,java.lang.Class) -> getFieldValue
+    268:287:java.lang.reflect.Field getReflectField(java.lang.String,java.lang.Object,java.lang.Class) -> getReflectField
+    293:301:java.lang.Object getStaticFieldValue(java.lang.String,java.lang.Class) -> getStaticFieldValue
+    306:315:java.lang.reflect.Field getReflectStaticField(java.lang.String,java.lang.Class) -> getReflectStaticField
+    14:14:void <clinit>() -> <clinit>
+com.meituan.robust.utils.PatchTemplate -> com.meituan.robust.utils.PatchTemplate:
+    java.lang.String MATCH_ALL_PARAMETER -> MATCH_ALL_PARAMETER
+    java.util.Map keyToValueRelation -> keyToValueRelation
+    15:16:void <init>() -> <init>
+    22:22:java.lang.Object accessDispatch(java.lang.String,java.lang.Object[]) -> accessDispatch
+    27:27:boolean isSupport(java.lang.String,java.lang.Object[]) -> isSupport
+    32:37:java.lang.Object fixObj(java.lang.Object) -> fixObj
+    18:18:void <clinit>() -> <clinit>
+com.xixilala.hotfix.MainActivity -> com.xixilala.hotfix.MainActivity:
+    com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> changeQuickRedirect
+    18:18:void <init>() -> <init>
+    22:68:void onCreate(android.os.Bundle) -> onCreate
+com.xixilala.hotfix.MainActivity$1 -> com.xixilala.hotfix.a:
+    com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> changeQuickRedirect
+    com.xixilala.hotfix.MainActivity this$0 -> a
+    27:27:void <init>(com.xixilala.hotfix.MainActivity) -> <init>
+    31:32:void onClick(android.view.View) -> onClick
+com.xixilala.hotfix.MainActivity$2 -> com.xixilala.hotfix.b:
+    com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> changeQuickRedirect
+    com.xixilala.hotfix.MainActivity this$0 -> a
+    35:35:void <init>(com.xixilala.hotfix.MainActivity) -> <init>
+    38:65:void onClick(android.view.View) -> onClick
+com.xixilala.hotfix.MainActivity$2$1 -> com.xixilala.hotfix.c:
+    com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> changeQuickRedirect
+    com.xixilala.hotfix.MainActivity$2 this$1 -> a
+    38:38:void <init>(com.xixilala.hotfix.MainActivity$2) -> <init>
+    41:42:void onPatchListFetched(boolean,boolean,java.util.List) -> onPatchListFetched
+    46:47:void onPatchFetched(boolean,boolean,com.meituan.robust.Patch) -> onPatchFetched
+    51:52:void onPatchApplied(boolean,com.meituan.robust.Patch) -> onPatchApplied
+    56:57:void logNotify(java.lang.String,java.lang.String) -> logNotify
+    61:63:void exceptionNotify(java.lang.Throwable,java.lang.String) -> exceptionNotify
+com.xixilala.hotfix.PatchManipulateImp -> com.xixilala.hotfix.d:
+    com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> changeQuickRedirect
+    20:20:void <init>() -> <init>
+    32:51:java.util.List fetchPatchList(android.content.Context) -> fetchPatchList
+    67:76:boolean verifyPatch(android.content.Context,com.meituan.robust.Patch) -> verifyPatch
+    79:103:void copy(java.lang.String,java.lang.String) -> a
+    113:113:boolean ensurePatchExist(com.meituan.robust.Patch) -> ensurePatchExist
+com.xixilala.hotfix.SecondActivity -> com.xixilala.hotfix.SecondActivity:
+    com.meituan.robust.ChangeQuickRedirect changeQuickRedirect -> changeQuickRedirect
+    12:12:void <init>() -> <init>
+    17:23:void onCreate(android.os.Bundle) -> onCreate
+    1028:1028:java.lang.String getTextInfo():28:28 -> onCreate
+    1028:1028:void onCreate(android.os.Bundle):20 -> onCreate

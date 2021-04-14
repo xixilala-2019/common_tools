@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:ignore="PxUsage,HardcodedText">
+
+    <ImageView
+        android:id="@+id/header"
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#098"
+        android:contentDescription="我是谁"
+        app:layout_behavior=".S3HeaderBehavior" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        app:layout_behavior=".S3RecyclerViewBehavior"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+            tools:itemCount="100" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

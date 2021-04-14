@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+apply plugin: 'auto-patch-plugin'
+//apply plugin: 'robust'
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '30.0.2'
+
+
+    signingConfigs {
+        debug {
+            storeFile file('C:\\hc\\test.jks')
+            storePassword '111111'
+            keyAlias = '111111'
+            keyPassword '111111'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "com.xixilala.hotfix"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+
+    }
+}
+
+dependencies {
+
+
+
+
+    compile 'com.meituan.robust:robust:0.4.99'
+}

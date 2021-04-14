@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv"
+        android:src="@mipmap/share_el"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/tvShareElement"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="共享元素动画"  />
+
+    <Button
+        android:id="@+id/tvSvgChinaMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="svg中国地图"  />
+    <Button
+        android:id="@+id/tvVLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aliVLayout"  />
+    <Button
+        android:id="@+id/tvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search"  />
+
+
+
+</LinearLayout>

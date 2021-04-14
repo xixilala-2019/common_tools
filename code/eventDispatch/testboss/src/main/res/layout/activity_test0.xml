@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:ignore="HardcodedText,PxUsage"
+    tools:context=".FixedTabActivity">
+
+    <ImageView
+        android:id="@+id/ivHeader"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:background="#123"
+        app:layout_behavior=".Ft0Behavior"
+        android:contentDescription="123" />
+
+    <HorizontalScrollView
+        app:layout_behavior=".Ft1Behavior"
+        android:id="@+id/svTab"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="300px">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:background="#678"
+                android:text="I AM TAB"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:background="#678"
+                android:layout_marginStart="10dp"
+                android:text="I AM TAB"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:background="#678"
+                android:layout_marginStart="10dp"
+                android:text="I AM TAB"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:background="#678"
+                android:layout_marginStart="10dp"
+                android:text="I AM TAB"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:background="#678"
+                android:layout_marginStart="10dp"
+                android:text="I AM TAB"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:background="#678"
+                android:layout_marginStart="10dp"
+                android:text="I AM TAB"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:background="#678"
+                android:layout_marginStart="10dp"
+                android:text="I AM TAB"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:background="#678"
+                android:layout_marginStart="10dp"
+                android:text="I AM TAB"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv4"
+        app:layout_behavior=".Ft2Behavior"
+        tools:itemCount="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

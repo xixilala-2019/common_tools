@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ssq"
+        android:title="@string/ssq" />
+
+    <item
+        android:id="@+id/dlt"
+        android:title="@string/dlt" />
+
+    <item
+        android:id="@+id/night"
+        android:title="@string/night" />
+
+    <item android:id="@+id/loadPatch"
+        android:title="@string/load_patch"
+        />
+</menu>

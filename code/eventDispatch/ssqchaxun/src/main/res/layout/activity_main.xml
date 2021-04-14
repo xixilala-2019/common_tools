@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.bilibili.magicasakura.widgets.TintToolbar
+        android:id="@+id/toolbar"
+        tools:title="双色球/大乐透查询"
+        app:titleTextColor="@color/white"
+        app:title="@string/ssq"
+        android:background="@color/theme_color_primary"
+
+        app:menu="@menu/change_lottery"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/toolbar_height"
+        android:id="@+id/rvData"
+        android:layout_width="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_height="match_parent" />
+
+    <com.bilibili.magicasakura.widgets.TintProgressBar
+        android:id="@+id/loading"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center" />
+</FrameLayout>

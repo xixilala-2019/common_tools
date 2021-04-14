@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xixilala.testboss.NestImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_behavior=".HeaderBehavior"
+        android:scaleType="centerInside"
+        android:src="@mipmap/p0" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:visibility="visible"
+        android:text="Hello 123 World"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_behavior=".TitleBehavior" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_list"
+        android:layout_width="match_parent"
+        android:background="#00000000"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_behavior=".ListBehavior"
+        tools:itemCount="100" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

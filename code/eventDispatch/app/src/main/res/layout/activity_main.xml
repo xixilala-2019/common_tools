@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xixilala.eventdispatchdemo.MyParentViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mpv0"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="#190"
+    tools:context=".MainActivity">
+
+
+
+        <com.xixilala.eventdispatchdemo.MyChildView
+            android:id="@+id/mcv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="#098"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+</com.xixilala.eventdispatchdemo.MyParentViewGroup>

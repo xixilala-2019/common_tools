@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/flexLayout"
+            app:flexWrap="wrap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.xixilala.simplefunction.search.view.SearchItemShowTextView
+                android:id="@+id/tvIWillUse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我要使用" />
+
+            <com.xixilala.simplefunction.search.view.SearchChooseTextView
+                android:id="@+id/tvChooseEngineName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Bing" />
+
+            <com.xixilala.simplefunction.search.view.SearchItemShowTextView
+                android:id="@+id/tvAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="在" />
+
+            <com.xixilala.simplefunction.search.view.SearchChooseTextView
+                android:id="@+id/tvChooseWebSite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Zhihu" />
+
+            <com.xixilala.simplefunction.search.view.SearchItemShowTextView
+                android:id="@+id/tvSearchContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索" />
+
+            <com.xixilala.simplefunction.search.view.SearchEditText
+                android:id="@+id/etSearchKeyword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="搜索内容"
+                android:minWidth="100dp" />
+
+            <com.xixilala.simplefunction.search.view.SearchItemShowTextView
+                android:id="@+id/tvRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="排除" />
+
+            <com.xixilala.simplefunction.search.view.SearchChooseTextView
+                android:id="@+id/tvRemoveWords"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="CSDN" />
+
+            <com.xixilala.simplefunction.search.view.SearchItemShowTextView
+                android:id="@+id/tvRemovedContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="里的内容" />
+
+            <com.xixilala.simplefunction.search.view.SearchItemShowTextView
+                android:id="@+id/tvMustContain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一定要是有" />
+
+            <com.xixilala.simplefunction.search.view.SearchChooseTextView
+                android:id="@+id/tvChooseKeyword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="CSDN" />
+
+            <com.xixilala.simplefunction.search.view.SearchItemShowTextView
+                android:id="@+id/tvKeyword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关键词" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <Button
+         android:text="搜索"
+            android:id="@+id/ibSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:elevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/flexLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,1 @@
+adb push app/build/outputs/robust/patch.jar /sdcard/robust/patch.jar

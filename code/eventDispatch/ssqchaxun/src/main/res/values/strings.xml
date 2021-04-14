@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">彩乐</string>
+    <string name="ssq">双色球</string>
+    <string name="dlt">大乐透</string>
+    <string name="night">夜间模式</string>
+    <string name="load_patch">加载补丁</string>
+</resources>

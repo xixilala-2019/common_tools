@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="search_engine_name">
+        <item>Bing</item>
+        <item>google</item>
+    </array>
+    <array name="search_special_site">
+        <item>jianshu.com</item>
+        <item>zhihu.com</item>
+    </array>
+    <array name="search_file_type">
+        <item>Bing</item>
+        <item>google</item>
+    </array>
+    <array name="search_language">
+        <item>Bing</item>
+        <item>google</item>
+    </array>
+    <array name="search_location">
+        <item>Bing</item>
+        <item>google</item>
+    </array>
+
+    <array name="search_remove">
+        <item>csdn.net</item>
+        <item>zhihu.com</item>
+    </array>
+</resources>
