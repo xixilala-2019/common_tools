@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">M3U8er</string>
+    <string name="navigation_drawer_open">打开导航栏</string>
+    <string name="navigation_drawer_close">关闭导航栏</string>
+
+    <string name="nav_header_developer">樱花小王子</string>
+    <string name="nav_header_email">Zeahow@163.com</string>
+    <string name="nav_header_desc">导航栏头部</string>
+
+    <string name="action_start_all">开始全部任务</string>
+    <string name="action_pause_all">暂停全部任务</string>
+
+    <string name="menu_all_task">所有任务</string>
+    <string name="menu_downloading_task">下载中</string>
+    <string name="menu_finished_task">已完成</string>
+
+    <string name="menu_function">功能</string>
+    <string name="menu_extract_audio">提取音频</string>
+
+    <string name="menu_others">其它</string>
+    <string name="menu_help">使用教程</string>
+    <string name="menu_share">分享软件</string>
+    <string name="menu_donate">捐赠</string>
+    <string name="menu_about">关于</string>
+
+    <string name="start">开始</string>
+    <string name="empty_view_tip">空空如也</string>
+    <string name="click_me_to_show_tutorial"><u>不会下载？点我查看教程</u></string>
+
+    <string name="default_path">/storage/emulated/0/JKVD</string>
+    <string name="save_path">保存路径</string>
+    <string name="name">名称</string>
+    <string name="url">链接</string>
+    <string name="click_me_to_get_name">-! 点我获取名称 !-</string>
+    <string name="getting_name">正在获取名称…</string>
+    <string name="unable_to_get_name">无法获取名称</string>
+    <string name="error_http_input">请输入以http(s)开头的链接</string>
+    <string name="video_name_not_specified">未指定视频名称，默认设置为\n</string>
+
+</resources>

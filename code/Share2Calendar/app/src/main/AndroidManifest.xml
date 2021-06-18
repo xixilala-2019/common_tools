@@ -25,7 +25,20 @@
 
         <activity android:name=".ShareActivity"  android:launchMode="singleTop">
 
-            <intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <!--小米里需要和 action.main 分开写-->
+                <action android:name="android.intent.action.PROCESS_TEXT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".OpenSystemBrowserActivity"  android:launchMode="singleTop">
+
+            <intent-filter android:label="网页搜索">
                 <!--小米里需要和 action.main 分开写-->
                 <action android:name="android.intent.action.PROCESS_TEXT" />
 

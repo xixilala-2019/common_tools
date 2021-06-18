@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_task"
+            android:icon="@drawable/ic_menu_all_task"
+            android:title="@string/menu_all_task"
+            android:checked="true" />
+        <item
+            android:id="@+id/nav_downloading_task"
+            android:icon="@drawable/ic_menu_downloading_task"
+            android:title="@string/menu_downloading_task" />
+        <item
+            android:id="@+id/nav_finished_task"
+            android:icon="@drawable/ic_menu_finished_task"
+            android:title="@string/menu_finished_task" />
+    </group>
+
+    <item android:title="@string/menu_function">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_extract_audio"
+                android:icon="@drawable/ic_menu_extract"
+                android:title="@string/menu_extract_audio" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_others">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_help"
+                android:title="@string/menu_help" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/ic_menu_donate"
+                android:title="@string/menu_donate" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+
+</menu>
